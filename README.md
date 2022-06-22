@@ -7,4 +7,4 @@ CFAR technique is implemented on the output 2D FFT for reliable estimate of the 
 CFAR: https://en.wikipedia.org/wiki/Constant_false_alarm_rate
 Good reference on system parameters for FMWC radars: https://training.ti.com/sites/default/files/docs/mmwaveSensing-FMCW-offlineviewing_4.pdf
 
-### Use of Kalman filter for noise cancellation of PPG
+### Use of Kalman filter for noise cancellation of PPG signal
