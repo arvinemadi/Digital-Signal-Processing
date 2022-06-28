@@ -7,4 +7,6 @@ CFAR technique is implemented on the output 2D FFT for reliable estimate of the 
 CFAR: https://en.wikipedia.org/wiki/Constant_false_alarm_rate
 Good reference on system parameters for FMWC radars: https://training.ti.com/sites/default/files/docs/mmwaveSensing-FMCW-offlineviewing_4.pdf
 
+Two versions of the file are here. One version is simpler to follow the algorithm, but runs slower. In the second version MATLAB vectorization is used for the calculations. Mainly for calculating the local noise over the training cell in the 2D FFT, convolution with a kernel of training cells is done.
+
 ### Use of Kalman filter for noise cancellation of PPG signal
